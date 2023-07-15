@@ -2,6 +2,8 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
+LOCAL_OPTIONAL_USES_LIBRARIES := org.apache.http.legacy
+
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := com.waze
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
